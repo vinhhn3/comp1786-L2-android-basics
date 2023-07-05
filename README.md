@@ -42,4 +42,5 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 The final application is below:
+
 ![img.png](img.png)
