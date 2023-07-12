@@ -10,6 +10,17 @@ We can define string in `string.xml`
 </resources>
 ```
 
+Plus, we can also add more color in `colors.xml`
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#0000FF</color>
+</resources>
+```
+
 Then, we can use it `activity_main.xml` 
 
 ```xml
@@ -25,8 +36,8 @@ Then, we can use it `activity_main.xml`
         android:id="@+id/hello_world"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        <!--Use the value from strings.xml-->
         android:text="@string/hello_world"
+        android:textColor="@color/blue"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,4 +77,4 @@ public class MainActivity extends AppCompatActivity {
 
 The final application is below:
 
-![img.png](img.png)
+![img_1.png](img_1.png)
