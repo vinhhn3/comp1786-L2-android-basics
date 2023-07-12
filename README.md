@@ -119,6 +119,10 @@ public class NameDisplay extends AppCompatActivity {
 }
 ```
 
+The whole flow can be seen as below: 
+
+![img_9.png](img_9.png)
+
 The final app can be seen as below:
 
 ![img_6.png](img_6.png)
