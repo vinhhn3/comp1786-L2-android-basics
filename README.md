@@ -1,6 +1,10 @@
 # Use of String Resources
 
-We can define string in `string.xml`
+The folder `res` contains all Android Resources for the project
+
+![img_2.png](img_2.png)
+
+We can define string in `strings.xml`
 
 ```xml
 <resources>
