@@ -1,5 +1,5 @@
 # Lecture 2: Android basics
 
-1. Create GUI
-2. Use String Resources
+1. Use String Resources
+2. Create GUI
 3. Add 2nd Activity
